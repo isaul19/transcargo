@@ -1,0 +1,85 @@
+/*  
+============= FONT KRUB IMPORTATIONS ==================================
+*/
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/200.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/300.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/400.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/500.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/600.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/krub/700.ttf");
+  font-weight: 700;
+}
+
+/*  
+============= FONT RUBIK IMPORTATIONS ==================================
+*/
+
+@font-face {
+  font-family: "krub";
+  src: url("../../fonts/rukib/200.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/400.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/500.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/600.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/700.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/800.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "rukib";
+  src: url("../../fonts/rukib/900.ttf");
+  font-weight: 900;
+}

@@ -1,0 +1,14 @@
+:root {
+  /* ===== COLORS ==== */
+  --color-blue: #091242;
+  --color-yellow: #ffbe34;
+  --color-gray: #f4f4f4;
+
+  --color-heading: #1c1f35;
+  --color-paragraph: #666c89;
+
+  /* ===== FONTS ==== */
+
+  --font-heading: "rukib";
+  --font-body: "krub";
+}
