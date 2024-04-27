@@ -11,10 +11,11 @@
 */
 
 body {
-  font-family: var(--font-body);
   color: var(--color-paragraph);
+  font-family: var(--font-body);
   font-size: 1.6rem;
   font-weight: 500;
+  position: relative;
 }
 
 h1,
@@ -58,47 +59,4 @@ h5 {
 h6 {
   font-weight: 400;
   font-size: 2rem;
-}
-
-.btn {
-  font-weight: 600;
-  overflow: hidden;
-  padding: 2rem 5rem;
-  position: relative;
-  z-index: 1;
-}
-
-.btn::before {
-  border-radius: 999px;
-  bottom: 0;
-  content: "";
-  height: 4rem;
-  position: absolute;
-  right: 0;
-  transform: translate(50%, 50%);
-  transition: transform 0.3s ease-in-out;
-  width: 4rem;
-  z-index: -1;
-}
-
-.btn--yellow {
-  color: var(--color-black);
-  background-color: var(--color-yellow);
-}
-
-.btn--yellow::before {
-  background-color: var(--color-yellow-ligth);
-}
-
-.btn--blue {
-  color: var(--color-white);
-  background-color: var(--color-blue);
-}
-
-.btn--blue::before {
-  background-color: var(--color-blue-ligth);
-}
-
-.btn:hover.btn::before {
-  transform: scale(400%);
 }

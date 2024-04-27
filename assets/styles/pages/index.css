@@ -1,1 +1,40 @@
+/*  
+============= IMPORT DEPENDENCIES ==================================
+*/
+
 @import url("../_common/global.css");
+
+@import url("../components/navigation.css");
+@import url("../components/button.css");
+@import url("../components/info-box.css");
+
+/*
+============= PAGE STYLES ==================================
+
+======= HERO SECTION =======
+*/
+
+.hero {
+  background-image: url("../../images/index/hero.jpg");
+  background-repeat: none;
+  height: 87rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.hero__title {
+  color: var(--color-white);
+  margin-top: 1rem;
+  max-width: 55rem;
+}
+
+.hero__paragraph {
+  color: var(--color-white);
+  margin-top: 0.6rem;
+  max-width: 57rem;
+}
+
+.hero__btn {
+  margin-top: 2.4rem;
+}
