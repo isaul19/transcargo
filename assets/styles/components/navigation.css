@@ -1,20 +1,22 @@
-.navigation-container {
+.header {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 999;
+  background-color: rgba(9, 18, 66, 0.25);
+  color: var(--color-white);
 }
 
 .navigation {
-  background-color: rgba(9, 18, 66, 0.25);
-  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation__list {
   display: flex;
 }
 
-.navigation__list-item {
+.navigation__item {
   padding: 0rem 3rem;
 }
 

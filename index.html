@@ -3,42 +3,179 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Transcargo - Inicio</title>
     <link rel="stylesheet" href="./assets/styles/pages/index.css" />
+    <link rel="shortcut icon" href="assets/icons/logo.png" type="image/x-icon" />
   </head>
   <body>
-    <header class="navigation-container">
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__list-item">
-            <a class="navigation__link active" href="./index.html">Home</a>
+    <header class="header">
+      <nav class="navigation container">
+        <a class="flex logo" href="./index.html">
+          <img src="./assets/icons/logo.png" alt="logo" />
+          <p>Transcargo</p>
+        </a>
+
+        <ul class="flex">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">Nosotros</a>
           </li>
-          <li class="navigation__list-item">
-            <a class="navigation__link" href="!#">About</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">Servicios</a>
           </li>
-          <li class="navigation__list-item">
-            <a class="navigation__link" href="!#">Pages</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">Proyectos</a>
           </li>
-          <li class="navigation__list-item">
-            <a class="navigation__link" href="!#">Project</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">Contacto</a>
           </li>
-          <li class="navigation__list-item">
-            <a class="navigation__link" href="!#">Contact</a>
+        </ul>
+
+        <ul class="flex">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">
+              <img src="./assets/icons/social/instragram.png" alt="instragram" />
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">
+              <img src="./assets/icons/social/facebook.png" alt="facebook" />
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">
+              <img src="./assets/icons/social/twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#!">
+              <img src="./assets/icons/social/linkdin.png" alt="youtube" />
+            </a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="hero">
-      <div>
-        <span class="info-box info-box--black">Logistics & Supply Chain Solutions</span>
-        <h1 class="hero__title">Your Gateway to any Destination in the World</h1>
-        <p class="hero__paragraph">
-          In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis
-          vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed
-          laoreet risus lectus.
+
+    <section class="hero-section">
+      <div class="container hero-section__text-box">
+        <span class="info-box info-box--black"
+          >Soluciones Logísticas y de Cadena de Suministro</span
+        >
+        <h1 class="hero-section__title">
+          Tu Puerta de <br />
+          Acceso a cualquier Destino del Mundo
+        </h1>
+        <p class="hero-section__paragraph">
+          En este lugar, encontrarás comodidad sin igual, nuevas oportunidades, nuevos caminos por
+          recorrer, con la certeza de que siempre encontrarás tu lugar.
         </p>
-        <button class="btn btn--yellow hero__btn">Explore More</button>
+        <button class="btn btn--yellow hero-section__btn">Explorar Más</button>
       </div>
     </section>
+
+    <section class="whatwedo-section container">
+      <div class="whatwedo-section__main">
+        <span class="info-box info-box--white">Lo Que Hacemos</span>
+        <h2 class="whatwedo-section__title">Soluciones de Carga Seguras y Confiables</h2>
+      </div>
+
+      <div class="whatwedo-section__services">
+        <div class="whatwedo-section__service">
+          <img src="./assets/icons/boat.png" alt="barco" />
+          <div class="whatwedo-section__service-text-box">
+            <h3 class="whatwedo-section__service-title">Servicios de Transporte Marítimo</h3>
+            <p class="whatwedo-section__service-paragraph">
+              Nuestra flota moderna y equipos especializados garantizan la eficiencia y seguridad en
+              cada envío.
+            </p>
+          </div>
+        </div>
+
+        <div class="whatwedo-section__service">
+          <img src="./assets/icons/building.png" alt="edificio" />
+          <div class="whatwedo-section__service-text-box">
+            <h3 class="whatwedo-section__service-title">Servicios de Almacenamiento</h3>
+            <p class="whatwedo-section__service-paragraph">
+              Nuestro equipo capacitado garantiza la gestión eficiente de inventario y la seguridad
+              de tu mercancía.
+            </p>
+          </div>
+        </div>
+
+        <div class="whatwedo-section__service">
+          <img src="./assets/icons/avion.png" alt="avión" />
+          <div class="whatwedo-section__service-text-box">
+            <h3 class="whatwedo-section__service-title">Servicios de Transporte Aéreo</h3>
+            <p class="whatwedo-section__service-paragraph">
+              Garantizamos entregas rápidas y seguras a cualquier parte del mundo.
+            </p>
+          </div>
+        </div>
+
+        <div class="whatwedo-section__service">
+          <img src="./assets/icons/truck.png" alt="camión" />
+          <div class="whatwedo-section__service-text-box">
+            <h3 class="whatwedo-section__service-title">Servicios de Envío Local</h3>
+            <p class="whatwedo-section__service-paragraph">
+              Con una flota de vehículos modernos y personal experto, garantizamos entregas rápidas
+              y seguras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="whyus-section">
+      <div>
+        <img
+          class="whyus-section__image"
+          src="./assets/images/index/steel-container.jpg"
+          alt="steel-container"
+        />
+      </div>
+      <div class="whyus-section__main container">
+        <div class="whyus-section__text-box">
+          <span class="info-box info-box--white">Why Us</span>
+          <h2 class="whyus-section__title">We provide full range global logistics solution</h2>
+          <p class="whyus-section__paragraph">
+            Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
+            thinking to further the overall value proposition.
+            <br />
+            <br />
+            Organically grow the holistic world view of disruptive innovation via workplace
+            diversity and empowerment.
+          </p>
+
+          <div class="whyus-section__benefits">
+            <div class="whyus-section__benefit">
+              <img src="./assets/icons/circle/circle-box.png" alt="circle-box" />
+              <span>Delivery on Time</span>
+            </div>
+
+            <div class="whyus-section__benefit">
+              <img src="./assets/icons/circle/circle-ticket.png" alt="dollar" />
+              <span>Optimized Travel Cost</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="whyus-section__img-box">
+          <img src="./assets/images/index/air-new-zealand.png" alt="air-new-zealand" />
+        </div>
+
+        <div class="whyus-section__info">
+          <span class="whyus-section__info-number"> 1294 </span>
+          <span class="whyus-section__square"></span>
+          <span class="whyus-section__info-text">Delivered Packages</span>
+        </div>
+
+        <div class="whyus-section__info">
+          <span class="whyus-section__info-number"> 3594 </span>
+          <span class="whyus-section__square"></span>
+          <span class="whyus-section__info-text">Satisfied Clients</span>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
   </body>
 </html>

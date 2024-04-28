@@ -14,27 +14,182 @@
 ======= HERO SECTION =======
 */
 
-.hero {
+.hero-section {
   background-image: url("../../images/index/hero.jpg");
-  background-repeat: none;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 87rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
 }
 
-.hero__title {
+.hero-section__text-box {
+  padding-top: 25rem;
+}
+
+.hero-section__title {
   color: var(--color-white);
   margin-top: 1rem;
-  max-width: 55rem;
+  max-width: 57rem;
 }
 
-.hero__paragraph {
+.hero-section__paragraph {
   color: var(--color-white);
   margin-top: 0.6rem;
   max-width: 57rem;
 }
 
-.hero__btn {
+.hero-section__btn {
   margin-top: 2.4rem;
+}
+
+/*
+======= WHATWEDO SECTION =======
+*/
+
+.whatwedo-section {
+  padding: 9.6rem 0;
+  display: flex;
+  gap: 6rem;
+}
+
+.whatwedo-section__main {
+  max-width: 29rem;
+}
+
+.whatwedo-section__title {
+  margin-top: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.whatwedo-section__services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+}
+
+.whatwedo-section__service {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.whatwedo-section__service-text-box {
+  max-width: 30rem;
+}
+
+.whatwedo-section__service-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.whatwedo-section__service-paragraph {
+  margin-top: 1.3rem;
+  font-size: 1.6rem;
+}
+
+/*
+======= WHYUS SECTION =======
+*/
+
+.whyus-section {
+  position: relative;
+}
+
+.whyus-section__image {
+  width: 100%;
+}
+
+.whyus-section__main {
+  background-color: var(--color-white);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 120rem;
+  padding: 12rem 8.5rem 0 8.5rem;
+  transform: translateY(-35%);
+}
+
+.whyus-section__text-box {
+  max-width: 47.2rem;
+}
+
+.whyus-section__title {
+  margin-top: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.whyus-section__paragraph {
+  margin-top: 1.2rem;
+}
+
+.whyus-section__img-box {
+  margin-left: auto;
+  position: relative;
+}
+
+.whyus-section__img-box::before {
+  background-image: url("../../images/index/girl-thinking.png");
+  background-repeat: no-repeat;
+  bottom: -8%;
+  box-shadow: 0 0 0 3rem var(--color-white);
+  content: "";
+  height: 45%;
+  left: -20%;
+  position: absolute;
+  width: 45%;
+  z-index: 1;
+}
+
+.whyus-section__benefits {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.whyus-section__benefit {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.whyus-section__benefit span {
+  font-size: 2.5rem;
+  color: var(--color-blue);
+}
+
+.whyus-section__info {
+  align-items: center;
+  color: var(--color-blue);
+  display: flex;
+  font-family: var(--font-heading);
+  gap: 1.6rem;
+  justify-content: center;
+  margin-top: 15rem;
+  padding: 4rem;
+}
+
+.whyus-section__info {
+  border: 0.1rem solid var(--color-paragraph);
+  border-left: none;
+}
+
+.whyus-section__info:last-of-type {
+  border-right: none;
+}
+
+.whyus-section__info-number {
+  font-size: 5rem;
+}
+
+.whyus-section__square {
+  display: inline-block;
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: var(--color-yellow);
+}
+
+.whyus-section__info-text {
+  font-size: 2rem;
+  font-weight: 400;
 }

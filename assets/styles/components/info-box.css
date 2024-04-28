@@ -12,6 +12,6 @@
 }
 
 .info-box--white {
-  background-color: var(--color-white-transparent);
+  background-color: var(--color-gray);
   color: var(--color-black);
 }
